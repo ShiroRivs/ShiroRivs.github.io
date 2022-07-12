@@ -1,0 +1,205 @@
+html, body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: white
+}
+
+
+#imagem_fundo {
+    background: url("ImagensSite/consumo-sustentavel.jpg");
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+}
+
+#titulo{
+    color:rgb(245, 133, 6);
+    padding-top: 10%;
+    font-size: 70px;
+    line-height: 1;
+    text-shadow: red;
+}
+
+#subtitulo{
+    color: rgb(0, 0, 0);
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 30px;
+}
+
+.acao{
+    color: rgb(0, 0, 0);
+    border: 5px rgb(0, 0, 0) solid;
+    padding: 10px 20px 10px 20px;
+    border-radius: 70px;
+    font-size: 20px;
+    text-decoration: initial;
+    background-color: rgba(0, 0, 0, 0);
+
+}
+
+.acao2{
+    color: rgb(0, 0, 0);
+    border: 5px rgb(0, 0, 0) solid;
+    padding: 10px 20px 10px 20px;
+    border-radius: 40px;
+    font-size: 15px;
+    text-decoration: initial;
+    background-color: rgba(0, 0, 0, 0);
+
+}
+
+.imgeco{
+    width: 85%;
+    height: 30%;
+}
+
+
+.coluna{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
+
+.dois{
+    width: 40%;
+}
+
+.quatro{
+    width: 15%;
+}
+
+.tres{
+    width: 29%;
+    padding: 0 2%;
+}
+.justificado{
+    text-align: justify;
+    
+}
+.destaque{
+    background-color:rgb(4, 179, 42);
+    width: 100vw;
+
+}
+section{
+    padding: 20px;
+    float: left;
+}
+#selecao{
+    text-align: center;
+    background-color: rgb(158, 51, 1);
+}
+#caixa{
+    width: 60%;
+    height: 50%;
+    border: 3px solid red;
+    text-align: center;
+}
+.centralizado{
+    text-align: center;
+}
+.icone{
+    width: 51px;
+}
+
+.imgjogo1{
+
+    width: 500px;
+    height: 300px; 
+    align-self: center;
+}
+
+.imgjogo2{
+
+    width: 500px;
+    height: 400px;
+    align-self: center;
+
+}
+#extra{
+  text-align: center;
+  background-color: rgb(5, 126, 55);
+}
+
+#textoMais{
+    padding: 2px 2px 2px 2px;
+}
+
+.mais{
+    background-color: rgb(255, 136, 0);
+    color: aliceblue;
+}
+
+.section-scn{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+#logo{
+    margin-left: 10px;
+    width: 65px;
+    position: absolute;
+    top: 10px;
+
+}
+#logodivs{
+    width: 100%;
+    position: relative;
+    -text-align: center;
+    padding: 0px;
+}
+#menu{
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 0%;
+
+}
+header{
+background-color: black;
+color: white;
+height: 60px;
+width: 100%;
+position: fixed;
+z-index: 10;
+
+}
+li{
+    float: left;
+    padding: 20 10 20 10;
+}
+li:hover{
+    background-color: #01AAEA;
+}
+#creditos{
+    width: 100%;
+    
+}
+@media all and (max-width: 750px) {
+    #menu{
+        visibility: hidden;
+    }
+
+    .coluna, .doi, .tres, .quatro {
+        display:block;
+        width: 80%;
+        padding: 0%;
+        margin: 10px auto;
+        float: none;
+    
+    }
+    #logodiv{
+        width: 100%;
+    }
+
+
+
+
+}
